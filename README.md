@@ -83,16 +83,19 @@ Prints results
 Helps validate the full flow end-to-end
 
 🔷 Java Concepts Used (Important)
+
 ✅ OOP
 Abstraction → abstract Policy class
 Inheritance → HealthPolicy extends Policy
 Polymorphism → overridden calculatePremium()
 Encapsulation → protected fields + getters
+
 ✅ Collections
 List<Policy> for storing policies
 Chosen because:
 Order matters
 Duplicate entries allowed (realistic scenario)
+
 ✅ Java 8 Streams & Lambda
 Used for:
 Filtering high-premium policies
@@ -101,10 +104,12 @@ Example concept:
 policies.stream()
         .filter(p -> p.calculatePremium() > amount)
         .collect(Collectors.toList());
+        
 ✅ Exception Handling
 Custom exception instead of returning null
 Prevents runtime crashes
 Improves reliability
+
 ✅ Logging
 Used logging instead of System.out.println
 Logs:
