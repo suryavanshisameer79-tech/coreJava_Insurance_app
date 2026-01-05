@@ -15,6 +15,7 @@ Handling errors properly
 Logging important operations
 
 Packages & Their Purpose
+
 1️⃣ model package
 What it contains
 Policy (abstract class)
