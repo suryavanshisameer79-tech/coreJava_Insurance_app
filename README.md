@@ -123,8 +123,12 @@ Layered Architecture
 Fail-Fast Approach
 Clean Code
 
+🔷 JUnit Testing:
+I used JUnit 5 to test service-layer logic.
+I tested both success and failure scenarios using assertions and assertThrows.
+This helped me avoid runtime issues like NullPointerExceptions and ensured business rules such as premium filtering worked correctly.
 
-Short Summary:
+🔷 Short Summary:
 built a Core Java insurance application using layered design.
 I used abstract classes and polymorphism to model different policy types, stored data using collections, applied Java 8 streams for filtering, handled errors with custom exceptions instead of nulls, 
 and added logging for traceability.
